@@ -76,10 +76,10 @@
 
         default_layer {
             bindings = <
-&kp Q  &kp W             &kp E           &kp R               &kp T                                            &kp Y            &kp U        &kp I                &kp O                   &kp P
-&kp A  &kp S             &kp D           &kp F               &kp G                          &to 1             &kp H            &kp J        &kp K                &kp L                   &lt 3 ENTER
-&kp Z  &mt LEFT_SHIFT X  &mt LEFT_ALT C  &mt LEFT_CONTROL V  &mt LEFT_GUI B  &to 0          &to 2             &mt RIGHT_GUI N  &mt RCTRL M  &mt RIGHT_ALT COMMA  &mt RIGHT_SHIFT PERIOD  &kp BACKSPACE
-&to 6  &to 5             &to 4           &lt 3 DELETE        &lt 2 TAB       &lt 1 SPACE    &lt 1 LANGUAGE_4  &lt 2 LANG5                                                                &kp ESCAPE
+&kp Q  &kp W             &kp E           &kp R               &kp T                                            &kp Y             &kp U        &kp I                &kp O                   &kp P
+&kp A  &kp S             &kp D           &kp F               &kp G                          &to 1             &kp H             &kp J        &kp K                &kp L                   &lt 3 ENTER
+&kp Z  &mt LEFT_SHIFT X  &mt LEFT_ALT C  &mt LEFT_CONTROL V  &mt LEFT_GUI B  &to 0          &to 2             &mt RIGHT_GUI N   &mt RCTRL M  &mt RIGHT_ALT COMMA  &mt RIGHT_SHIFT PERIOD  &kp BACKSPACE
+&to 6  &to 5             &to 4           &lt 3 DELETE        &lt 2 TAB       &lt 1 SPACE    &lt 1 LANGUAGE_1  &lt 2 LANGUAGE_2                                                            &kp ESCAPE
             >;
 
             sensor-bindings = <&scroll_up_down>;
@@ -98,10 +98,10 @@
 
         layer_2 {
             bindings = <
-&kp LG(C)  &kp LC(C)  &kp LC(I)           &mkp MB1             &kp LC(T)                        &kp HOME         &mkp MB1           &mkp MB2        &mkp MB3              &kp PAGE_UP
-&kp LG(X)  &kp LC(X)  &kp LC(LS(TAB))     &kp LC(TAB)          &kp LC(LS(T))            &trans  &kp END          &kp LEFT_ARROW     &kp UP_ARROW    &kp RIGHT_ARROW       &kp PAGE_DOWN
-&kp LG(V)  &kp LC(V)  &kp LA(LEFT_ARROW)  &kp RA(RIGHT_ARROW)  &kp LC(W)      &trans    &trans  &kp C_VOLUME_UP  &kp C_VOLUME_DOWN  &kp DOWN_ARROW  &kp LS(LG(NUMBER_3))  &kp PRINTSCREEN
-&trans     &trans     &trans              &trans               &trans         &trans    &trans  &trans                                                                    &kp C_MUTE
+&kp LG(C)  &kp LC(C)  &kp LC(I)           &mkp MB1             &kp LC(T)                                &kp HOME         &mkp MB1           &mkp MB2        &mkp MB3              &kp PAGE_UP
+&kp LG(X)  &kp LC(X)  &kp LC(LS(TAB))     &kp LC(TAB)          &kp LC(LS(T))                    &trans  &kp END          &kp LEFT_ARROW     &kp UP_ARROW    &kp RIGHT_ARROW       &kp PAGE_DOWN
+&kp LG(V)  &kp LC(V)  &kp LA(LEFT_ARROW)  &kp RA(RIGHT_ARROW)  &kp LC(W)      &trans            &trans  &kp C_VOLUME_UP  &kp C_VOLUME_DOWN  &kp DOWN_ARROW  &kp LS(LG(NUMBER_3))  &kp PRINTSCREEN
+&trans     &trans     &trans              &kp LCTRL            &trans         &kp LEFT_SHIFT    &trans  &trans                                                                    &kp C_MUTE
             >;
 
             sensor-bindings = <&scroll_up_down>;
